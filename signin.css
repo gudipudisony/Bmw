@@ -1,0 +1,16 @@
+*{
+    font-size:16px;
+    padding:0px;
+    margin:0px;
+}
+.container{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;  
+    background-color: lavender; 
+}
+.signupcontainer{
+    width:300px;
+}

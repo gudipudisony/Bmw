@@ -1,0 +1,17 @@
+img{
+    width:50%;
+}
+p:hover{
+    background-color:lightgrey;
+}
+@media only screen and (maxc-width:450px){
+    img{
+        width:25%;
+        transition:width 0.5s;
+    }
+}
+@media only print{
+    img{
+        visibility:hidden;
+    }
+}
